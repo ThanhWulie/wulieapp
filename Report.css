@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1C1A1F;
+    height: 100vh;
+}
+.container_main{
+    background-color: #1C1A1F;
+    padding: 0 40px;
+}
+.col-lg-2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+}
+.noactivetext{
+color: white;
+ font-size: 20px;
+ font-family: Be Vietnam;
+ font-weight: 500;
+ line-height: 28px;
+ word-wrap: break-word
+}
+.activetext{
+color: #FF60A2;
+ font-size: 20px;
+ font-family: Be Vietnam;
+ font-weight: 700;
+ line-height: 28px;
+ word-wrap: break-word
+}
+.noactive{
+    color: #fff;
+    display: flex;
+    gap: 16px;
+    text-decoration: none;
+    align-items: center
+}
+.noactivetext:hover{
+    color: #FF60A2;
+    cursor: pointer;
+}
+.backbutton{
+    cursor: pointer;
+}
+.menuactive{
+    display: flex;
+    gap: 16px;
+    align-items: center
+}
+.navbarmain{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.col-lg-10{
+    display: flex;
+    padding-bottom: 40px;
+}
+.headertitle{
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column-reverse;
+
+}
+.headertitletext{
+    display: flex;
+    gap: 32px;
+}
+.headertitleback{
+    display: flex;
+    gap: 8px;
+}
+.waiting{ 
+    color: #EF5B99;
+     font-size: 24px;
+     font-family: Be Vietnam;
+     font-weight: 700;
+     text-transform: uppercase;
+     line-height: 32px;
+     word-wrap: break-word
+    }
+.finished{
+    color: #ffffff;
+     font-size: 24px;
+     font-family: Be Vietnam;
+     font-weight: 500;
+     text-transform: uppercase;
+     line-height: 32px;
+     word-wrap: break-word;
+     text-decoration: none;
+}
+.finished:hover{
+        color: #FF60A2;
+    }
+.searchbar{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 30px;
+    border-radius: 90px;
+    background: #3B3B3B;
+    height: 56px;
+}
+.search_input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: white;
+    font-family: Be Vietnam;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.search_input::placeholder {
+    color: #939393;
+    font-family: Be Vietnam;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.content_main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.contentmain_report{
+    flex: 1;
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    gap: 32px;
+    overflow: auto;
+}
+.contentreport{
+    flex: 1;
+    display: flex;
+    border-radius: 16px;
+background: #211F25;
+flex-direction: column;
+gap: 24px;
+}
+.headerreport{
+    display: flex;
+    gap: 24px;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+    justify-content: space-between;
+}
+.imgheader{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+}
+.textheader{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.buttonheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
+}
+.tiltetext{
+    color: #FFF;
+font-family: Be Vietnam;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+}
+.bodytext{
+    color: #FFF;
+font-family: Be Vietnam;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+}
+.textreport{
+    display: flex;
+    padding-left: 24px;
+    gap: 16px;
+    flex-direction: column;
+
+}
+.bodytextreport{
+    color: #FFF;
+font-family: Be Vietnam;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+.btn.btn-success{
+    background-color: #5CB304 ;
+    border-radius: 12px;
+    font-weight: 400s;
+    line-height: 24px;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: none;
+    padding: 8px 47px;
+   }
+   .btn.btn-danger{
+       background-color: C32626 ;
+       border-radius: 12px;
+       font-weight: 400s;
+       line-height: 24px;
+       font-size: 16px;
+       text-transform: capitalize;
+       border: none;
+       padding: 8px 36px;
+   }
+.viewdetail{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+    color: #FFF;
+font-family: Be Vietnam;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+text-decoration-line: underline;
+text-transform: capitalize;
+}
+.footer{
+    background-color: #1C1A1F;
+
+    height: 74px;
+}

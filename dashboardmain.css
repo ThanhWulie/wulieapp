@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1C1A1F;
+    height: 100vh;
+}
+.container_main{
+    background-color: #1C1A1F;
+    padding: 0 40px;
+}
+.header_nav {
+    display: flex;
+    padding: 24px 0;
+}
+.content_vertical_left {
+    width: 204px;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 54px;
+}
+.nav_item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+.nav_item_title:hover{
+    color: #FF60A2;
+    cursor: pointer;
+}
+.nav_item_title {
+    color: #FFF;
+font-family: Be Vietnam;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 140% */
+    
+    /* 140% */
+}
+.active .nav_item_title {
+    color: #FF60A2;
+    font-weight: 700;
+}
+.content_main{
+    flex: 1;
+    display: flex;
+    gap: 27px;
+}
+.content_main_layout{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.content_top{
+    flex: 1;
+    display: flex;
+    gap: 30px;
+}
+.content_top_left{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.content_top_left_1{
+    display: flex; 
+    flex-direction: column;
+    gap: 24px;
+}
+.content_top_left_button{
+    display: flex;
+    width: 170px; 
+    height: 48px; 
+    border-radius: 16px; 
+    border: 1px white solid;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.content_buttun{
+    
+color: white;
+ font-size: 16px;
+ font-family: Be Vietnam;
+ font-weight: 500;
+ line-height: 32px;
+ word-wrap: break-word
+}
+.content_top_left_header{
+    color: white;
+font-size: 24px;
+font-family: Be Vietnam;
+font-weight: 600;
+line-height: 32px;
+word-wrap: break-word
+}
+.content_top_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.content_top_right_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_top_right_header_title{
+    color: white;
+font-size: 24px;
+font-family: Be Vietnam;
+font-weight: 600;
+line-height: 32px;
+word-wrap: break-word
+}
+.content_top_right_header_btn{
+    color: white;
+font-size: 16px;
+font-family: Be Vietnam;
+font-weight: 600;
+line-height: 24px;
+word-wrap: break-word
+}
+.content_top_right_main{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.content_right_main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_right_main_text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+.content_right_main_img{
+    display: flex;
+    gap: 32px;
+}
+.content_right_main_text_title{
+    color: white;
+font-size: 20px;
+font-family: Be Vietnam;
+font-weight: 500;
+line-height: 28px;
+word-wrap: break-word
+}
+.content_right_main_text_btn{
+    color: white;
+font-size: 16px;
+font-family: Be Vietnam;
+font-weight: 500;
+line-height: 24px;
+word-wrap: break-word
+}
+.content_right_main_view{
+    color: white;
+font-size: 20px;
+font-family: Be Vietnam;
+font-weight: 500;
+line-height: 28px;
+word-wrap: break-word
+}
+.content_bot{
+    flex: 1;
+    display: flex;
+    gap: 30px;
+}
+.content_bot_left{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.content_bot_left_header{
+color: white;
+ font-size: 24px;
+ font-family: Be Vietnam;
+ font-weight: 600;
+ text-transform: uppercase;
+ line-height: 32px;
+ word-wrap: break-word
+}
+.content_bot_left_top{
+    display: flex;
+    gap: 31px;
+}
+.content_bot_left_button_1{
+    display: flex;
+    width: 318px; 
+    height: 140px; 
+    border-radius: 28px; 
+    border: 1px white solid;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+.content_bot_left_button_2{
+    display: flex;
+    width: 318px; 
+    height: 140px; 
+    border-radius: 28px; 
+    border: 1px white solid;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.content_bot_left_button_3{
+    display: flex;
+    width: 318px; 
+    height: 140px; 
+    border-radius: 28px; 
+    border: 1px white solid;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+}
+.content_bot_left_button_4{
+    display: flex;
+    width: 318px; 
+    height: 140px; 
+    border-radius: 28px; 
+    border: 1px white solid;
+    justify-content: center;
+    align-items: center;
+    gap: 51px;
+}
+.content_bot_left_button_cont{
+   display: flex;
+   gap: 16px;
+   flex-direction: column;
+}
+.content_bot_left_button_content{
+color: white;
+ font-size: 16px;
+ font-family: Be Vietnam;
+ font-weight: 500;
+ text-transform: uppercase;
+ line-height: 24px;
+ word-wrap: break-word
+}
+.content_bot_left_button_number{
+color: white;
+ font-size: 36px;
+ font-family: Be Vietnam;
+ font-weight: 500;
+ text-transform: uppercase;
+ line-height: 48px;
+ word-wrap: break-word
+}
+.content_bot_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.content_bot_right_header{
+    color: white;
+font-size: 24px;
+font-family: Be Vietnam;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 32px;
+word-wrap: break-word;
+}
+.content_bot_right_cont{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+}
+.imgchart{
+    width: 243px;
+    height: 243px;
+}
+.content_bot_right_detail{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.content_bot_right_music{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.elip{
+    width: 10px; 
+    height: 10px; 
+    background: #0EC3AD; 
+    border-radius: 9999px;
+}
+.elip2{
+        width: 10px; 
+        height: 10px; 
+        background: #7B4DFF; 
+        border-radius: 9999px;
+}
+.content_bot_right_title{
+    color: white;
+font-size: 16px;
+font-family: Be Vietnam;
+font-weight: 500;
+line-height: 32px;
+word-wrap: break-word
+}
+.form-select{
+    width: 170px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid #FFF;
+background: none;
+}
